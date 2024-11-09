@@ -22,7 +22,7 @@ jobs:
       - name: Run test suite
         run: |
           pipenv run pytest
-format:
+  format:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
